@@ -56,6 +56,12 @@ function sumaArray(array){
 function numeroDigitos(num){
   // Devuelve el número de dígitos de un número dado
   // Tu código:
+  var digitos = num.toString();
+  var cantDigitos = 0;
+  for (var i=0; i<digitos.length; i++){
+    cantDigitos = cantDigitos + 1;
+  }
+  return cantDigitos;
 }
   
   
